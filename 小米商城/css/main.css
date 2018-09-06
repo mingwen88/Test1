@@ -1,0 +1,2463 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    max-width: 1902px;
+    min-width: 960px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.container{
+    width: 100%;
+    height: 500px;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+.cont{
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+figure{
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/***************************  begin ********************************/
+header{
+    width: 100%;
+    height: 120px;
+    background: url("../img/q1.png") center;
+}
+/****************************  No.1.1 **********************************/
+main .enter{
+    height: 40px;
+    background: #333;
+}
+main .enter ul{
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+main .enter .left li{
+    float: left;
+    padding: 0 5px;
+    margin-top:13px;
+    height: 13px;
+    line-height: 13px;
+    border-left: 1px solid #555;
+}
+main .enter .left {
+    width: 550px;
+}
+main .enter .left li:first-child{
+    border-left: 0;
+}
+main .enter .left li a{
+    color: #999;
+    font-size: 13px;
+}
+main .enter .left li a:hover{
+    color: #ddd;
+}
+/***************************  main第一部分(2)   ********************************/
+main .enter .right{
+    float: right;
+    width:250px;
+}
+main .enter .right li{
+    float: left;
+    padding: 0 5px;
+    margin-top:13px;
+    height: 13px;
+    line-height: 13px;
+    border-left: 1px solid #555;
+}
+main .enter .right li:first-child{
+    border-left: 0;
+}
+main .enter .right li:nth-child(3){
+    margin-right: 10px;
+}
+main .enter .right .shop{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 0 10px;
+    background: rgba(150,150,150,.4);
+    border-left: 0;
+    text-align: center;
+}
+main .enter .right .shop i{
+    color: #999;
+}
+main .enter .right li a{
+    width: 100%;
+    height: 100%;
+    color: #999;
+    font-size: 13px;
+}
+main .enter .right li a:hover{
+    color: #ddd;
+}
+/*****************************  No.1.2  ******************************/
+main .enter .position{
+    width: 1226px;
+    position: relative;
+    height: 40px;
+}
+main .enter .shop-hid{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 300px;
+    height:0;
+    line-height: 95px;
+    float: right;
+    background: #fff;
+    color: #333;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    transition: .3s;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0 10px 50px #ddd;
+    z-index:2;
+}
+/***************************** No.2.1  *******************************/
+main .search {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    clear: both;
+}
+main .search .small-search{
+    width: 1226px;
+    height: 100px;
+}
+main .search .left{
+    height: 100px;
+    width: 243px;
+    display: inline-block;
+    overflow: hidden;
+}
+main .search .left img{
+    margin-top: 16px;
+    cursor: pointer;
+}
+/*****************************  No.2.2 *****************************/
+main .search .center{
+    width: 480px;
+    height: 100px;
+    display: inline-block;
+}
+main .search .center ul{
+    width: 100%;
+    height: 100px;
+}
+main .search .center ul li{
+    height: 88px;
+    margin: 10px 0 5px;
+    padding: 0 10px 0 0;
+    float: left;
+    line-height: 88px;
+    font-size: 14px;
+}                                                                                          
+main .search .center ul li a:hover{
+    color:#ff6700;
+}
+/****************************** No.2.3 *****************************/
+main .search .right{
+    width: 250px;
+    height:60px;
+    float: right;
+    left: 0;
+    top: 25px;
+    font-size: 0;
+    position: relative;
+}
+main .search .right input{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    font-size: 16px;
+}
+main .search .recom{
+    width:200px;
+    height: 260px;
+    border:1px solid #ff6700;
+    border-top: 0;
+    display: none;
+    z-index: 1;
+    background: white;
+    position: relative;
+}
+main .search .recom li{
+    height: 26px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+main .search .recom li:hover{
+    background: #eee;
+}
+main .search .recom li span{
+    width: 85px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+}
+main .search .small-search .right .recom li span:last-child{
+    float: right;
+    text-align: right;
+    color:#999;
+}
+main .search .right i{
+    border: 1px solid #e0e0e0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-left: 0;
+    font-size: 16px;
+    float: right;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+main .search .right .pro a{
+    background: #eee;
+    padding: 3px;
+}
+main .search .right .pro a:hover{
+    color: white;
+    background: #ff6700;
+    transition: .3s;
+}
+main .search .right .pro{
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+    font-size: 12px;
+}
+/******************************** No.2.4  ********************************/
+main .search .search-hid{
+    width: 100%;
+    height: 0;
+    background: white;
+    z-index:2;
+    overflow: hidden;
+    box-shadow: 0 0 5px #ddd;
+    transition: .2s;
+    position: relative;
+}
+main .search .search-hid ul{
+    width: 1226px;
+    margin: 0 auto;
+    height: 100%;
+    display: none;
+    z-index: 1;
+}
+main .search .search-hid img{
+    width: 160px;
+    height: 110px;
+}
+main .search .search-hid li:last-child div{
+    border-right:0;
+}
+main .search-hid li div{
+    width: 100%;
+    border-right: 1px solid #999;
+    margin-top: 30px;
+}
+main .search .search-hid li{
+    width: 16%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+main .search-hid li span{
+    width: 60px;
+    height: 20px;
+    border: 1px solid #ff6700;
+    color:#ff6700;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 55px;
+    top: 0;
+}
+main .search .search-hid ul li p{
+    font-size: 13px;
+    margin: 7px 0 5px 0;
+    color: #333333;
+}
+main .search .search-hid ul li p:last-child{
+    margin-top: 0;
+    color: #ff6700;
+}
+main .search-hid .tv li:last-child p:last-child{
+    color: #333;
+}
+main .search-hid .noopsyche li:last-child p:last-child{
+    color: #333;
+}
+main .search-hid .router li:last-child p:last-child{
+    color: #333;
+    margin: 7px 0 5px 0;
+}
+/******************************  NO.3 .1 **********************************************/
+main .carousel {
+    width: 1226px;
+    margin: 0 auto;
+    height:475px ;
+}
+main .carousel .content{
+    width: 100%;
+    position: relative;
+}
+main .carousel .left{
+    width: 20%;
+    height: 100%;
+    padding-top: 20px;
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    font-size: 14px;
+    left: 0;
+    top: 0;
+}
+main .carousel .tu .left li{
+    width: 100%;
+    height: 42px;
+    line-height: 21px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+main .carousel .left li b{
+    float: right;
+    font-size: 20px;
+    color: #bbb;
+}
+main .carousel .tu{
+    height: 460px;
+    position: relative;
+}
+main .carousel .tu .image img{
+    display: none;
+    width: 100%;
+    height: 460px;
+}
+main .carousel .tu .image .flast-img{
+    display: block;
+}
+main .carousel .tu .dire-span{
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 210px;
+}
+main .carousel .tu .dire-span span{
+    width: 30px;
+    height: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #abaa96;
+}
+main .carousel .tu .dire-span span:hover{
+    background: rgba(150,150,150,.4);
+    color: white;
+}
+main .carousel .tu .dire-span span:last-child{
+    float: right;
+    height:50px;
+    line-height: 50px;
+}
+main .carousel .tu .choice{
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    z-index: 1;
+}
+main .carousel .tu .choice div {
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgba(150, 150, 150, .6);
+    border-radius: 180px;
+    float: left;
+    margin: 0 6px 0 6px;
+    background: #333333;
+    cursor: pointer;
+}
+main .carousel .tu .choice div:first-child{
+    background: white;
+}
+/*******************************  NO.3.2  ******************************************************/
+main .carousel .tu .depot{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    top:0;
+}
+main .carousel .tu .depot .big-depot{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow:  0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+main .carousel .tu .depot .big-depot ul{
+    width: 25%;
+    padding-left: 10px;
+    float: left;
+}
+main .carousel .tu .depot .big-depot ul li{
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+main .carousel .tu .depot .big-depot ul li span{
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+main .carousel .tu .depot .big-depot ul li img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+main .carousel .tu .depot .midd-depot{
+    width: 75%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow:  0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+main .carousel .tu .depot .midd-depot ul{
+    width: 33%;
+    padding-left: 10px;
+    float: left;
+}
+main .carousel .tu .depot .midd-depot ul li{
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+main .carousel .tu .depot .midd-depot ul li span{
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+main .carousel .tu .depot .midd-depot ul li img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+main .carousel .tu .depot .small-depot{
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow:  0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+main .carousel .tu .depot .small-depot ul{
+    width: 50%;
+    padding-left: 10px;
+    float: left;
+}
+main .carousel .tu .depot .small-depot ul li{
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+main .carousel .tu .depot .small-depot ul li span{
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+main .carousel .tu .depot .small-depot ul li img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+main .carousel .tu .depot .little-depot{
+    width: 25%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow:  0 0 10px #bbbbbb;
+    padding: 20px;
+    position: relative;
+}
+main .carousel .tu .depot .little-depot ul{
+    width: 100%;
+    padding-left: 10px;
+    float: left;
+}
+main .carousel .tu .depot .little-depot ul li{
+    width: 100%;
+    height: 70px;
+    background: white;
+}
+main .carousel .tu .depot .little-depot ul li span{
+    height: 70px;
+    line-height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+main .carousel .tu .depot .little-depot ul li img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    display: inline;
+}
+/********************************  No.4   **************************************************/
+main .serve{
+    width: 1226px;
+    height: 170px;
+    margin: 0 auto;
+    clear: both;
+}
+main .serve .content{
+    width: 20%;
+    height: 140px;
+    margin: 0;
+    display: inline-block;
+}
+main .serve .nominate{
+    width: 100%;
+    height: 140px;
+    background: grey;
+}
+main .serve .nominate ul li{
+    width: 33%;
+    height: 70px;
+    border:1px solid #dddddd;
+    float: left;
+    border-right: 0;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 7px;
+    color: #e0e0e0;
+}
+main .serve .nominate ul li:hover{
+    color: white;
+}
+main .serve .nominate ul li img{
+    width: 30px;
+    height: 30px;
+    opacity:0.9;
+}
+main .serve .nominate ul li img:hover{
+    color: white;
+}
+main .serve .mini{
+    float: right;
+    width: 80%;
+    height: 140px;
+    display: inline-block;
+    clear: both;
+}
+main .serve .mini figure{
+    width: 300px;
+    height: 140px;
+    display: inline-block;
+    margin-left:23px;
+}
+main .serve .mini figure :hover{
+    box-shadow:   0 0 10px #757575 ;
+    transition: .100s;
+}
+main .serve .mini figure img{
+    width: 300px;
+    height: 140px;
+    float: left;
+}
+/********************************  No.5   **************************/
+main .gilt{
+    width: 1226px;
+    height: 580px;
+    margin: 0 auto;
+}
+main .gilt .title{
+    clear: both;
+}
+main .gilt .title h2{
+    display: inline-block;
+    font-weight: normal;
+}
+main .gilt .title .trans{
+    width: 80px;
+    height:26px;
+    float: right;
+    margin: 20px 0;
+}
+main .gilt .title span{
+    width: 40px;
+    height: 22px;
+    font-size: 25px;
+    line-height: 22px;
+    float: left;
+    padding-left: 10px;
+    border: 1px solid #b0b0b0;
+    color: #b0b0b0;
+}
+main .gilt .title span:hover{
+    color: orangered;
+}
+main .gilt .title span:nth-child(1){
+    border-right:0
+}
+main .gilt .countTime{
+    width: 234px;
+    height: 339px;
+    background: #f0f0f0;
+    text-align: center;
+    border-top:1px solid red ;
+    display: inline-block;
+}
+main .gilt .countTime h3{
+    font-weight: normal;
+    color: red;
+    margin: 60px 0 30px;
+}
+main .gilt .countTime img{
+    margin-bottom:30px ;
+}
+main .gilt .countTime p{
+    font-size: 15px;
+    color: #424242;
+    opacity: 0.8;
+    padding-bottom: 30px ;
+}
+main .gilt .countTime span{
+    font-size: 25px;
+    color: white;
+    background: #424242;
+    padding: 8px;
+}
+main .gilt ul{
+    float: right;
+    width: 80%;
+    height: 339px;
+    text-align: center;
+}
+main .gilt ul li{
+    float: left;
+    margin-left:11px ;
+}
+main .gilt ul li h6{
+    width:60px ;
+    height: 20px;
+    margin:0 90px 40px ;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: red;
+    text-align: center;
+}
+main .gilt ul li .count{
+    width: 234px;
+    height: 339px;
+    background:#f0f0f0;
+    text-align: center;
+
+}
+main .gilt ul li:nth-of-type(1){
+    border-top: 1px solid orange;
+}
+main .gilt ul li:nth-of-type(2){
+    border-top: 1px solid green;
+}
+main .gilt ul li:nth-of-type(3){
+    border-top: 1px solid blue;
+}
+main .gilt ul li:nth-of-type(4){
+    border-top: 1px solid red;
+}
+main .gilt ul li:nth-of-type(5){
+    border-top: 1px solid orange;
+}
+main .gilt ul li:nth-of-type(6){
+    border-top: 1px solid green;
+}
+main .gilt ul li:nth-of-type(7){
+    border-top: 1px solid blue;
+}
+main .gilt ul li:nth-of-type(8){
+    border-top: 1px solid red;
+}
+main .gilt ul li .count p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .gilt ul li .count h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .gilt ul li .count  img{
+    width:160px ;
+    height: 160px;
+}
+main .gilt ul li .count span{
+    color: orangered;
+    font-size: 14px;
+}
+main .gilt ul li .count del{
+    font-size: 14px;
+    color: #b0b0b0;
+}
+main .gilt ul li .count .old{
+    margin-top: 60px;
+}
+main .gilt .bg{
+    width: 100%;
+    height: 120px;
+    margin: 50px 0;
+    background-position:center ;
+}
+main .gilt .bg img{
+    width: 1226px;
+    height: 120px;
+}
+/************************************  No.6.1  ************************/
+main .home{
+    width: 100%;
+    height:7420px ;
+    background: #f0f0f0;
+    margin-top: 50px;
+}
+main .home .content{
+    width: 1226px;
+    height: 830px;
+    margin: 0 auto;
+    position: relative;
+}
+main .home .content .title{
+    clear: both;
+}
+main .home .content .title h2{
+    display: inline-block;
+    font-weight: normal;
+}
+main .home .content .title .trans{
+    width: 90px;
+    height:26px;
+    float: right;
+    margin: 20px 0;
+}
+main .home .content .title span{
+    width: 70px;
+    height: 22px;
+    font-size:16px;
+    line-height: 22px;
+    float: left;
+    color: black;
+}
+main .home .content .title span:nth-child(2){
+    width: 20px;
+    height: 22px;
+    line-height: 15px;
+    color: white;
+    font-size: 20px;
+    background: #b0b0b0;
+    border-radius: 50%;
+    padding: 3px;
+}
+main .home .content .iphone{
+    width: 234px;
+    height: 600px;
+    background: #f0f0f0;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top:70px ;
+}
+main .home .content .iphone:hover {
+    box-shadow: 0 0 30px #757575;
+    top: 65px;
+    transition: .3s;
+}
+main .home .content .iphone img{
+    width: 234px;
+    height: 614px;
+    margin-bottom:30px ;
+}
+main .home .content ul{
+    float: right;
+    width: 80%;
+    height: 620px;
+    text-align: center;
+}
+main .home .content ul .one:hover{
+    top: 305px;
+    transition: .3s;
+}
+main .home .content ul li{
+    float: left;
+    margin-left:11px ;
+    position: absolute;
+}
+main .home .content ul li:hover{
+    top: -5px;
+    transition: .3s;
+}
+main .home .content ul li h6{
+    width:60px ;
+    height: 20px;
+    margin:0 90px 20px ;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: red;
+    text-align: center;
+}
+main .home .content ul li .count{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .content ul li .count:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .content ul li .count p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .content ul li .count h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .content ul li .count  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .content ul li .count span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .content ul li .count del{
+    font-size: 14px;
+    color: #b0b0b0;
+}
+main .home .content ul li .count .old{
+    margin-top: 40px;
+}
+main .home .content .bg{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    background-position:center ;
+}
+main .home .content .bg img{
+    width: 100%;
+    height: 120px;
+}
+/******************************  No.6.2  *****************8*/
+main .home .app{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+main .home .app .title{
+    clear: both;
+}
+main .home .app .title h2{
+    display: inline-block;
+    font-weight: normal;
+}
+main .home .ele .title .trans{
+    width: 283px;
+    height:26px;
+    margin: 20px 0;
+    float: right;
+}
+main .home .ele .title .trans li{
+    height:30px ;
+    color: #424242;
+    float: left;
+    padding: 0 15px;
+}
+main .home .intel .title .trans{
+    width: 332px;
+    height:26px;
+    margin: 20px 0;
+    float: right;
+}
+main .home .intel .title .trans li{
+    height:30px ;
+    color: #424242;
+    float: left;
+    padding: 0 15px;
+}
+main .home .app .title span{
+    width: 70px;
+    height: 22px;
+    font-size:16px;
+    line-height: 22px;
+    float: left;
+    color: black;
+}
+main .home .app .title .trans li:nth-child(1){
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+main .home .app .left{
+    width: 234px;
+    height: 625px;
+    background: #f0f0f0;
+    text-align: center;
+    display: inline-block;
+}
+main .home .app .left img{
+    width: 234px;
+    height: 300px;
+    margin-bottom:10px ;
+}
+main .home .app .left img:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .app .left img:nth-child(2){
+    margin-bottom:30px;
+}
+main .home .app .all{
+    width: 80%;
+    height: 620px;
+    display: inline-block;
+    margin:0 0 25px 5px;
+}
+main .home .app .all ul{
+    float: right;
+    width: 100%;
+    height: 620px;
+    text-align: center;
+    position: relative;
+}
+main .home .app .all ul li{
+    float: left;
+    margin-left:11px ;
+    position: relative;
+    overflow: hidden;
+   transform: translate(0 -10px);
+}
+main .home .app .all ul li .evaluate{
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    color: white;
+    font-size: 12px;
+    background:coral ;
+    text-align: center;
+    z-index: 2;
+    left: 0;
+    bottom: -80px;
+
+}
+main .home .app .all ul li .evaluate p{
+    width: 160px;
+    margin:5px ;
+    margin-left:40px;
+}
+main .home .app .all ul li h6{
+    width:60px ;
+    height: 20px;
+    margin:0 90px 20px ;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: red;
+    text-align: center;
+}
+main .home .app .all ul li .count{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .app .all ul li:hover .evaluate{
+    bottom: 13px;
+    transition: .5s;
+}
+main .home .app .all ul li .count:hover{
+    box-shadow:0 0 20px #757575;
+}
+main .home .app .all ul li .count p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .app .all ul li .count h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .app .all ul li .count  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .app .all ul li .count span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .app .all ul li .count del{
+    font-size: 14px;
+    color: #b0b0b0;
+}
+main .home .app .all ul li .count .old{
+    margin-top: 40px;
+}
+main .home .app .all ul li .news{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .app .all ul li .news del{
+    color: #b0b0b0;
+    font-size: 14px;
+}
+main .home .app .all ul li .news h6{
+    background: green;
+    opacity: 0.6;
+}
+main .home .app .all ul li .news p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .app .all ul li .news:hover{
+    box-shadow: 0 0 20px #757575
+}
+main .home .app .all ul li .little:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .app .all ul li .news h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .app .all ul li .news  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .app .all .more:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .app .all ul li .news span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .app .all ul li .free{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .app .all ul li .free p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .app .all ul li .free:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .app .all ul li .free h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .app .all ul li .free  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .app .all ul li .free span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .app .all ul li .free h6{
+    background: orange;
+    opacity: 0.6;
+}
+main .home .app .all ul li .little{
+    width: 234px;
+    height: 145px;
+    background: white;
+    margin-bottom: 10px;
+    text-align: left;
+}
+main .home .app .all ul li .little p{
+    width: 120px;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 50px 0 0 20px;
+}
+main .home .app .all ul li .little h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .app .all ul li .little img{
+    width:80px ;
+    height: 80px;
+    float: right;
+    margin: 30px 20px 0 0;
+}
+main .home .app .all ul li .little span{
+    color: orangered;
+    font-size: 14px;
+    margin: 20px;
+}
+main .home .app .more{
+    width: 234px;
+    height: 145px;
+    background: white;
+    position: absolute;
+    right:0;
+    bottom: 172px;
+}
+main .home .app .more p{
+    font-size: 18px;
+    color: #424242; ;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+main .home .app .more span{
+    font-size: 14px;
+    color: #424242;
+    margin:0 50px ;
+}
+main .home .app .more i{
+    color: orangered;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px;
+    border: 3px solid orangered;
+    border-radius: 50%;
+}
+main .home .app .bg{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    background-position:center ;
+}
+main .home .app .bg img{
+    width: 100%;
+    height: 120px;
+}
+/*****************************  No.6.3  ******************/
+main .home .sport{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+main .home .sport .title{
+    clear: both;
+}
+main .home .sport .title h2{
+    display: inline-block;
+    font-weight: normal;
+}
+main .home .adapt .title .trans{
+    width: 330px;
+    height:26px;
+    margin: 20px 0;
+    float: right;
+}
+main .home .adapt .title .trans li{
+    height:30px ;
+    color: #424242;
+    float: left;
+    padding: 0 15px;
+}
+main .home .fit .title .trans{
+    width: 260px;
+    height:26px;
+    margin: 20px 0;
+    float: right;
+}
+main .home .fit .title .trans li{
+    height:30px ;
+    color: #424242;
+    float: left;
+    padding: 0 15px;
+    position: relative;
+}
+main .home .sport .title span{
+    width: 70px;
+    height: 22px;
+    font-size:16px;
+    line-height: 22px;
+    float: left;
+    color: black;
+}
+main .home .sport .title .trans li:nth-child(1){
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+main .home .sport .left{
+    width: 234px;
+    height: 625px;
+    background: #f0f0f0;
+    text-align: center;
+    display: inline-block;
+}
+main .home .sport .left img{
+    width: 234px;
+    height: 300px;
+    margin-bottom:10px ;
+}
+main .home .sport .left img:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .sport .left img:nth-child(2){
+    margin-bottom:30px;
+}
+main .home .sport .all{
+    width: 80%;
+    height: 620px;
+    display: inline-block;
+    margin:0 0 25px 5px;
+}
+main .home .sport .all ul{
+    float: right;
+    width: 100%;
+    height: 620px;
+    text-align: center;
+}
+main .home .sport .all ul li{
+    float: left;
+    margin-left:11px ;
+    position: relative;
+    overflow: hidden;
+}
+main .home .sport .all ul li .evaluate{
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    color: white;
+    font-size: 12px;
+    background:coral ;
+    text-align: center;
+    z-index: 2;
+    bottom: -80px;
+}
+main .home .sport .all ul li:hover .evaluate{
+    bottom: 13px;
+    transition: .5s;
+}
+main .home .sport .all ul li .evaluate p{
+    width: 160px;
+    margin:5px ;
+    margin-left:40px;
+}
+main .home .sport .all ul li h6{
+    width:60px ;
+    height: 20px;
+    margin:0 90px 20px ;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: red;
+    text-align: center;
+}
+main .home .sport .all ul li .count{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .sport .all ul li .count:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .sport .all ul li .count p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .sport .all ul li .count h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .sport .all ul li .count  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .sport .all ul li .count span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .sport .all ul li .count del{
+    font-size: 14px;
+    color: #b0b0b0;
+}
+main .home .sport .all ul li .count .old{
+    margin-top: 40px;
+}
+main .home .sport .all ul li .news{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .sport .all ul li .news:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .sport .all ul li .news del{
+    color: #b0b0b0;
+    font-size: 14px;
+}
+main .home .sport .all ul li .news h6{
+    background: green;
+    opacity: 0.6;
+}
+main .home .sport .all ul li .news p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .sport .all ul li .news h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .sport .all ul li .news  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .sport .all ul li .news span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .sport .all ul li .free{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .sport .all ul li .free:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .sport .all ul li .free p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .sport .all ul li .free h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .sport .all ul li .free  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .sport .all ul li .free span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .sport .all ul li .free h6{
+    background: orange;
+    opacity: 0.6;
+}
+main .home .sport .all ul li .little{
+    width: 234px;
+    height: 145px;
+    background: white;
+    margin-bottom: 10px;
+    text-align: left;
+}
+main .home .sport .all ul li .little:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .sport .all ul li .little p{
+    width: 120px;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 50px 0 0 20px;
+}
+main .home .sport .all ul li .little h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .sport .all ul li .little img{
+    width:80px ;
+    height: 80px;
+    float: right;
+    margin: 30px 20px 0 0;
+}
+main .home .sport .all ul li .little span{
+    color: orangered;
+    font-size: 14px;
+    margin: 20px;
+}
+main .home .sport .more{
+    width: 234px;
+    height: 145px;
+    background: white;
+    position: absolute;
+    right:0;
+    bottom: 172px;
+}
+main .home .sport .more:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .sport .more p{
+    font-size: 18px;
+    color: #424242; ;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+main .home .sport .more span{
+    font-size: 14px;
+    color: #424242;
+    margin:0 50px ;
+}
+main .home .sport .more i{
+    color: orangered;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px;
+    border: 3px solid orangered;
+    border-radius: 50%;
+}
+main .home .sport .bg{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    background-position:center ;
+}
+main .home .sport .bg img{
+    width: 100%;
+    height: 120px;
+}
+/**********************   No.6.4   *********************************/
+main .home .around{
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+main .home .around .title{
+    clear: both;
+}
+main .home .around .title h2{
+    display: inline-block;
+    font-weight: normal;
+}
+main .home .around .title .trans{
+    width: 345px;
+    height:26px;
+    margin: 20px 0;
+    float: right;
+}
+main .home .around .title .trans li{
+    height:30px ;
+    color: #424242;
+    float: left;
+    padding:0 15px;
+    position: relative;
+}
+main .home .around .title .trans li:nth-child(1){
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+main .home .around .title span{
+    width: 70px;
+    height: 22px;
+    font-size:16px;
+    line-height: 22px;
+    float: left;
+    color: black;
+}
+main .home .around .left{
+    width: 234px;
+    height: 625px;
+    background: #f0f0f0;
+    text-align: center;
+    display: inline-block;
+}
+main .home .around .left img{
+    width: 234px;
+    height: 300px;
+    margin-bottom:10px ;
+}
+main .home .around .left img:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .around .left img:nth-child(2){
+    margin-bottom:30px;
+}
+main .home .around .all{
+    width: 80%;
+    height: 620px;
+    display: inline-block;
+    margin:0 0 25px 5px;
+}
+main .home .around .all ul{
+    float: right;
+    width: 100%;
+    height: 620px;
+    text-align: center;
+}
+main .home .around .all ul li{
+    float: left;
+    margin-left:11px ;
+    position: relative;
+    overflow: hidden;
+}
+main .home .around .all ul li .evaluate{
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    color: white;
+    font-size: 12px;
+    background:coral ;
+    text-align: center;
+    z-index: 2;
+    bottom: -80px;
+}
+main .home .around .all ul li:hover .evaluate{
+     bottom: 13px;
+     transition: .5s;
+}
+main .home .around .all ul li .evaluate p{
+    width: 160px;
+    margin:5px ;
+    margin-left:40px;
+}
+main .home .around .all ul li h6{
+    width:60px ;
+    height: 20px;
+    margin:0 90px 20px ;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: red;
+    text-align: center;
+}
+main .home .around .all ul li .count{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .around .all ul li .count:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .around .all ul li .count p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .around .all ul li .count h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .around .all ul li .count  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .around .all ul li .count span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .around .all ul li .count del{
+    font-size: 14px;
+    color: #b0b0b0;
+}
+main .home .around .all ul li .count .old{
+    margin-top: 40px;
+}
+main .home .around .all ul li .news{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .around .all ul li .news:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .around .all ul li .news del{
+    color: #b0b0b0;
+    font-size: 14px;
+}
+main .home .around .all ul li .news h6{
+    background: green;
+    opacity: 0.6;
+}
+main .home .around .all ul li .news p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .around .all ul li .news h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .around .all ul li .news  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .around .all ul li .news span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .around .all ul li .free{
+    width: 234px;
+    height: 300px;
+    background:white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+main .home .around .all ul li .free:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .around .all ul li .free p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .home .around .all ul li .free h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .around .all ul li .free  img{
+    width:160px ;
+    height: 160px;
+}
+main .home .around .all ul li .free span{
+    color: orangered;
+    font-size: 14px;
+}
+main .home .around .all ul li .free h6{
+    background: orange;
+    opacity: 0.6;
+}
+main .home .around .all ul li .little{
+    width: 234px;
+    height: 145px;
+    background: white;
+    margin-bottom: 10px;
+    text-align: left;
+}
+main .home .around .all ul li .little:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .around .all ul li .little p{
+    width: 120px;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 50px 0 0 20px;
+}
+main .home .around .all ul li .little h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .home .around .all ul li .little img{
+    width:80px ;
+    height: 80px;
+    float: right;
+    margin: 30px 20px 0 0;
+}
+main .home .around .all ul li .little span{
+    color: orangered;
+    font-size: 14px;
+    margin: 20px;
+}
+main .home .around .more{
+    width: 234px;
+    height: 145px;
+    background: white;
+    position: absolute;
+    right:0;
+    bottom: 172px;
+}
+main .home .around .more:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .home .around .more p{
+    font-size: 18px;
+    color: #424242; ;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+main .home .around .more span{
+    font-size: 14px;
+    color: #424242;
+    margin:0 50px ;
+}
+main .home .around .more i{
+    color: orangered;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 5px;
+    border: 3px solid orangered;
+    border-radius: 50%;
+}
+main .home .around .bg{
+    width: 100%;
+    height: 120px;
+    margin: 20px 0;
+    background-position:center ;
+}
+main .home .around .bg img{
+    width: 100%;
+    height: 120px;
+}
+/******************   No.6.5  *********/
+main .recommend{
+    width: 1226px;
+    height:440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+main .recommend .title{
+    clear: both;
+}
+main .recommend .title h2{
+    display: inline-block;
+    font-weight: normal;
+}
+main .recommend .title .trans{
+    width: 80px;
+    height:26px;
+    float: right;
+    margin: 20px 0;
+}
+main .recommend .title span{
+    width: 40px;
+    height: 22px;
+    font-size: 25px;
+    line-height: 22px;
+    float: left;
+    padding-left: 10px;
+    border: 1px solid #b0b0b0;
+    color: #b0b0b0;
+}
+main .recommend .title span:hover{
+    color: orangered;
+}
+main .recommend .title span:nth-child(1){
+    border-right:0
+}
+main .recommend ul{
+    float: right;
+    width: 100%;
+    height:339px;
+    overflow: hidden;
+    text-align: center;
+}
+main .recommend ul li{
+    float: left;
+    margin-left:14px ;
+}
+main .recommend ul li h6{
+    width:60px ;
+    height: 20px;
+    margin:0 90px 40px ;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: red;
+    text-align: center;
+}
+main .recommend ul li .count{
+    width: 234px;
+    height: 339px;
+    background:white;
+    text-align: center;
+
+}
+main .recommend ul li .count:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .recommend ul li .count p{
+    font-weight: normal;
+    font-size: 14px;
+}
+main .recommend ul li:nth-child(1){
+    margin: 0;
+}
+main .recommend ul li .count h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .recommend ul li .count  img{
+    width:160px ;
+    height: 160px;
+}
+main .recommend ul li .count span{
+    color: orangered;
+    font-size: 14px;
+}
+main .recommend ul li .count .old{
+    margin-top: 60px;
+}
+/**************************  No.6.6  ***********************/
+main .hot{
+    width: 1226px;
+    height:540px;
+    margin: 0 auto;
+}
+main .hot .title{
+    clear: both;
+}
+main .hot .title h2{
+    display: inline-block;
+    font-weight: normal;
+}
+main .hot ul{
+    position: relative;
+    float: right;
+    width: 100%;
+    height:470px;
+    overflow: hidden;
+    text-align: center;
+}
+main .hot ul li{
+    height: 450px;
+    float: left;
+    margin-left:14px ;
+    position: absolute;
+}
+main .hot ul li:hover{
+    top: -5px;
+    transition: .3s;
+}
+main .hot ul li h6{
+    width:60px ;
+    height: 20px;
+    margin:0 90px 40px ;
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+    background: red;
+    text-align: center;
+}
+main .hot ul li .count{
+    width: 296px;
+    height: 600px;
+    background:white;
+    text-align: center;
+
+}
+main .hot ul li .count:hover{
+    box-shadow: 0 0 20px #757575;
+}
+main .hot ul li .count h4{
+    display: inline-block;
+    font-weight: normal;
+    padding-right: 10px;
+    border-right: 1px solid #b0b0b0;
+    margin: 0;
+}
+main .hot ul li .count span{
+    color: orangered;
+    font-size: 14px;
+}
+main .hot ul li .count p {
+    width: 220px;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 20px 0 0 40px ;
+}
+main .hot ul li:nth-child(1){
+    margin: 0;
+}
+main .hot ul li .count h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: #b0b0b0;
+    margin-top: 7px;
+}
+main .hot ul li .count  img{
+    width:296px ;
+    height: 226px;
+}
+/**********************************  No.6.7  *****************************************/
+main .home .cont .top{
+    width: 100%;
+    height: 45px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+main .home .cont{
+    width: 1226px;
+    height: 480px;
+    margin: 0 auto;
+}
+main .home .cont ul li{
+    background: white;
+    border-top: 1px solid #ff6700;
+    float: left;
+    width: 24.25%;
+    height: 420px;
+    margin-left: 1%;
+    text-align: center;
+    position: relative;
+}
+main .home .cont ul li .center{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 190px;
+    left: 0;
+}
+main .home .cont ul li .center span{
+    width: 20px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background: rgba(99,99,99,.4);
+    color: white;
+    display: none;
+}
+main .home .cont ul li:hover .center span{
+    display: inline-block;
+    cursor: pointer;
+}
+main .home .cont ul li .center .left{
+    float: left;
+}
+main .home .cont ul li .center .right{
+    float: right;
+    display: none;
+}
+main  .home .cont ul li .dian{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+main  .home .cont ul .one .dian{
+    margin-left: 5%;
+}
+main  .home .cont ul li .dian div{
+    width: 10px;
+    height: 10px;
+    background: #666;
+    border-radius:180px ;
+    margin-left: 10%;
+    float: left;
+}
+main  .home .cont ul li .dian .bast{
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ff6700;
+    background: white;
+}
+main  .home .cont ul li .dian div:first-child{
+    margin-left: 32%;
+}
+main .home .cont ul li:hover{
+    margin-top: 0;
+    box-shadow:  0 0 10px #999;
+    transition: .3s;
+}
+main .home .cont li{
+    margin-top: 10px;
+}
+main .home .cont li:first-child{
+    margin-left: 0;
+}
+main .home .cont ul h2{
+    color: #ff6700;
+    font-weight: 100;
+}
+main .home .cont .one-div{
+    width: 100%;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+}
+main .home .cont .one .one-div .lenght{
+    width: 300%;
+    height: 280px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+main .home .cont ul .lenght{
+    width: 400%;
+    height: 280px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+main .home .cont ul .one .lenght figure{
+    width: 33.3%;
+    float: left;
+}
+main .home .cont ul .lenght figure{
+    width: 25%;
+    float: left;
+}
+main .home .cont ul .lenght figure h4{
+    font-size: 20px;
+    margin-top: 0;
+    position:relative ;
+}
+main .home .cont ul .lenght figure .p{
+    width: 80%;
+    margin:  0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    position: relative;
+}
+main .home .cont ul .lenght figure .last{
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    border: 1px solid #ff6700;
+    text-align: center;
+    line-height: 30px;
+    color: #ff6700;
+    margin: 30px 0;
+    position: relative;
+}
+main .home .cont ul .lenght figure .nextp{
+    font-size: 14px;
+    color: #333;
+    margin: 15px 0;
+    position: relative;
+}
+main .home .cont ul .three .lenght figure img{
+    margin-top: 50px;
+    position: relative;
+}
+main .home .cont ul .fovr .lenght figure img{
+    margin-top: 50px;
+    position: relative;
+}
+
+/************************    No.6.7   *******************/
+main .home .video{
+    width: 1226px;
+    height: 400px;
+    margin:0 auto;
+}
+main .home .video .top{
+    height: 45px;
+}
+main .home .video .top p{
+    font-size: 25px;
+    color: #333;
+    float: left;
+}
+main .home .video .top div{
+    float: right;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+main .home .video .top div span:last-child{
+    width: 20px;
+    height: 20px;
+    border-radius: 180px;
+    background: #999999;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+main .home .video .top div:hover span:first-child{
+    color: #ff6700;
+    transition: .3s;
+}
+main .home .video .top div:hover span:last-child {
+    background: #ff6700;
+    transition: .3s;
+}
+main .home .video .bottom figure{
+    width: 24.25%;
+    height: 300px;
+    background: white;
+    text-align: center;
+    position:relative;
+    margin-top: 10px;
+    float: left;
+    margin-left: 1%;
+    cursor: pointer;
+}
+main .home .video .bottom figure:first-child{
+    margin-left: 0;
+}
+main .home .video .bottom figure:hover{
+    margin-top: 0;
+    transition: .3s;
+}
+main .home .video .bottom figure:hover .img{
+    background: #ff6700;
+    border: #ff6700;
+    line-height: 32px;
+    transition: .3s;
+}
+main .home .video .bottom figure img{
+    width: 100%;
+    height:160px
+}
+main .home .video .bottom figure .img {
+    width: 40px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    top: 120px;
+    line-height: 25px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+main .home .video .bottom figure .img img{
+    width: 20px;
+    height: 20px;
+}
+main .home .video .bottom figure figcaption p{
+    margin-top: 30px;
+    cursor: pointer;
+}
+main .home .video .bottom figure figcaption p:hover{
+    color: #ff6700;
+    transition: .3s;
+}
+main .home .video .bottom figure figcaption span{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ccc;
+    display: inline-block;
+}
+/******************   No.6.8   **********************/
+main .foot{
+    width: 100%;
+    height: 130px;
+    background: white;
+}
+main .foot .first{
+    width: 1226px;
+    height:80px ;
+    margin: 0 auto;
+}
+main .foot .first ul{
+    width: 1226px;
+    height: 88px;
+    float: right;
+}
+main .foot .first ul li{
+    width:240px;
+    height: 20px;
+    float: left;
+    padding: 0 40px;
+    margin: 30px 0;
+    border-right: 1px solid #b0b0b0;
+    color: #424242;
+}
+main .foot .first ul .b{
+    display: none;
+}
+main .foot .first ul li:hover{
+    color: orange;
+}
+main .foot .first ul :hover .a{
+    display: none;
+}
+main .foot .first ul :hover .b{
+    display: inline-block;
+}
+main .foot .first ul li img{
+    width: 24px;
+    height: 25px;
+}
+main .foot .first ul li:last-child{
+    border-right: none;
+}
+main .foot hr{
+    color: #b0b0b0;
+}
+/************************   No.6.9  ***************************/
+main .home .line{
+    width: 100%;
+    height: 170px;
+    background: white;
+}
+main .home .contact{
+    width: 1226px;
+    height: 192px;
+    margin: 0 auto;
+    clear: both;
+    background: white;
+}
+main .home .contact .title{
+    width: 156px;
+    height: 120px;
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+}
+main .home .contact .title:nth-child(6){
+    border-right: 1px solid #b0b0b0;
+}
+main .home .contact .title dt{
+    font-size: 14px;
+    color: #424242;
+    margin: -1px 0 26px;
+}
+main .home .contact .title dd{
+    width: 160px;
+    height: 18px;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+main .home .contact .title dd:hover{
+    color: orange;
+}
+main .home .call{
+    width: 230px;
+    height: 120px;
+    float: right;
+    text-align: center;
+}
+main .home .call .phone{
+    font-size: 22px;
+    color: #ff6700;
+    margin: 0 0 5px;
+}
+main .home .call p{
+    font-size: 12px;
+    margin: 0 0 16px;
+    color: #616161;
+}
+main .home .call a{
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+main .home .call a:hover{
+    color: white;
+    background: orange;
+}
+/**********************底部******************/
+footer{
+    width: 100%;
+    height: 166px;
+}
+footer .finally{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+footer .finally .rigedit{
+    width: 1226px;
+    height: 57px;
+    margin: 0 auto;
+    background: white;
+}
+footer .finally .rigedit .logo{
+    display: inline-block;
+}
+footer .finally .rigedit img{
+    display: inline-block;
+}
+footer .finally .rigedit .case{
+    width: 57%;
+    height: 57px;
+    display: inline-block;
+}
+footer .finally .rigedit ul{
+    width: 100%;
+    height:18px ;
+    display: inline-block;
+}
+footer .finally  .rigedit ul li{
+    float: left;
+    font-size: 12px;
+    color: #424242;
+    padding: 0 5px;
+    border-right: 1px solid #b0b0b0;
+}
+footer .finally  .rigedit ul li:hover{
+    color: orange;
+}
+footer .finally .rigedit ul li:last-child{
+    border-right: none;
+}
+footer .finally .rigedit p{
+    width: 90%;
+    height: 16px;
+    font-size: 12px;
+    color: #b0b0b0;
+    display: inline-block;
+}
+footer .finally .rigedit p:hover{
+    color: orange;
+}
+footer .finally .other{
+    width: 37%;
+    height: 57px;
+    float: right;
+}
+footer .finally .other a img{
+    width: 85px;
+    height: 28px;
+}
+footer p{
+    font-size: 20px;
+    color: #b0b0b0;
+    text-align: center;
+}
+.video1 div{
+    width: 50%;
+    height: 540px;
+    position: fixed;
+    top: -500px;
+    left: 20%;
+    z-index: 20;
+    transition: .3s;
+}
+.video1 video{
+    width: 100%;
+}
+.video1 div ul{
+    height: 60px;
+    background: white;
+    color: #333;
+    padding: 20px;
+    font-size: 18px;
+}
+.video1 div ul li:first-child{
+    float: left;
+}
+.video1 div ul li img{
+    width: 20px;
+    height: 20px;
+}
+.video1 div ul li:last-child{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 180px;
+    float: right;
+    text-align: center;
+    line-height: 34px;
+}
+.video1 div ul li .imgb{
+    display: none;
+}
+.video1 div ul .li:hover{
+    background: red;
+}
+.video1 div ul .li:hover .imga{
+    display: none;
+}
+.video1 div ul .li:hover .imgb{
+    display: inline-block;
+}
+aside{
+    width: 60px;
+    height: 250px;
+    position: fixed;
+    right: 0;
+    top: 40%;
+}
+aside a{
+    width: 60px;
+    height: 50px;
+}
+aside img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+aside .ib{
+    display: none;
+}
+aside ul li{
+    width: 100%;
+    height: 80px;
+    background: white;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+aside ul li:hover{
+    color: #ff6700;
+    cursor: pointer;
+}
+aside ul li:hover .ia{
+    display: none;
+}
+aside ul li:hover .ib{
+    display: inline-block;
+}
+aside ul li:last-child{
+    display: none;
+    margin-top: 20px;
+}
+
+
